@@ -148,11 +148,37 @@ Para correr o compilar el proyecto ejecuta el siguiente codigo:
 
 ```sh
 project-root-folder/
-├── project-sub-folder(s)/
-├── vendor/ (con las dependencias requeridas)
-├── index.php
-├── composer.json
-└── README.md
+├──app
+├──├──config
+├──├──├──Conexion
+├──├──├──MyRoutes
+├──├──├──ORM
+├──├──├──Route
+├──├──├──SecurityToken
+├──├──├──View
+├──controller
+├──├──├──Document_validaciones.controller.js
+├──node_modules
+├──├──.bin
+├──├──@ampproject
+├──├──@babel
+├──├──@Jridgewell
+├──├──@nicolo-ribauno
+├──├──...
+├──src
+├──├──Document_validaciones.controller.js
+├──vendor
+├──view
+├──.babelrc
+├──.env
+├──.htaccess
+├──composer.json
+├──coposer.lock
+├──index.php
+├──package-lock.json
+├──package.json
+├──prueba.js
+├──RADME.md
 ```
 <h3>Autores</h3>
 <img src="https://pa1.narvii.com/6909/c92d8f3b7babc938ab6686671f207a33c56e3e35r1-500-719_hq.gif" width = "65px" height="80px">
